@@ -1,0 +1,11 @@
+{
+  "name": "complexity-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint .",
+    "analyze-python": "radon cc . -s -a"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
